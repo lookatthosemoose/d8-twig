@@ -1,0 +1,30 @@
+name: Panthers
+description: 'A Drupal 8 Panthers theme. #KEEPPOUNDING'
+type: theme
+package: Custom
+base theme: classy
+core: 8.x
+screenshot: panthers.jpg
+libraries:
+  - panthers/global-styling
+  - panthers/secret-sauce
+regions:
+  header: 'Header'
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  help: 'Help'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  featured_top: 'Featured top'
+  breadcrumb: 'Breadcrumb'
+  content: 'Content'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  featured_bottom_first: 'Featured bottom first'
+  featured_bottom_second: 'Featured bottom second'
+  featured_bottom_third: 'Featured bottom third'
+  footer_first: 'Footer first'
+  footer_second: 'Footer second'
+  footer_third: 'Footer third'
+  footer_fourth: 'Footer fourth'
+  footer_fifth: 'Footer fifth'

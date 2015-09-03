@@ -1,0 +1,6 @@
+<?php
+// Just like template.php
+// Instead of drupal_add_css() or drupal_add_js()
+function panthers_preprocess_page(&$variables) {
+  $variables['#attached']['library'] = array('panthers/global-styling', 'panthers/secret-sauce');
+}
